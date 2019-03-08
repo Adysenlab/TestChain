@@ -1,7 +1,15 @@
-#include "Blockchain.h"
+#include "testChain.h"
 
-int main()
+testChain::testChain(/* args */)
 {
+}
+
+testChain::~testChain()
+{
+}
+
+int testChain::testHashChain()
+{   //default parameterization
     Blockchain bChain = Blockchain();
 
     cout << "Mining block 1..." << endl;
